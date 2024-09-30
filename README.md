@@ -1,6 +1,12 @@
 # Name: 
 Alan de Guzman
 
+# Github Repository
+https://github.com/HelloStudentWorld/project1-personal-website
+
+# Github Pages
+https://hellostudentworld.github.io/project1-personal-website/
+
 # Overview
 This project is a responsive web app designed to showcase my professional journey, projects, and expertise in the field of automotive software engineering. This web app serves as a central hub for user engagement, providing prospective employers/recruiters with a comprhensive overview of my background, skill set, and portfolio of projects, along with an easy/intuitive contact form for direct communication.
 
@@ -59,7 +65,7 @@ Categorized skills in Front-End, Back-End, and Tools with visual indicators of p
 - Employed for version control and project hosting, providing code management and easy sharing with prospective employers.
 
 # Future Improvements
-1. Project Filtering: Enable filtering or sorting options for projects based on technology stack or project type to make it easier for recruiters to find relevant work.
+1. Add actual Projects: Projects currently listed are placeholder projects.
 
 2. Skills Proficiency Indicators: Add visual progress bars or icons to showcase proficiency levels in different skills such as: Beginner, Intermediate, Advanced.
 
@@ -74,3 +80,5 @@ Categorized skills in Front-End, Back-End, and Tools with visual indicators of p
 7. Search Functionality: Implement a site-wide search to allow users to quickly find specific sections, projects, or skills.
 
 8. Multilingual Support: Add the option to view the website in multiple languages, broadening accessibility to international employers.
+
+9. Project Filtering: Enable filtering or sorting options for projects based on technology stack or project type to make it easier for recruiters to find relevant work.
