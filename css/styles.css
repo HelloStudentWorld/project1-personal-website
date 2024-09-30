@@ -138,8 +138,6 @@ p, .card-text {
     color: #333;
 }
 
-/* Existing styles above */
-
 /* Wireframe Overview Styles */
 #wireframe-overview {
     background-color: #f8f9fa;
@@ -325,7 +323,54 @@ p, .card-text {
     text-align: center;
 }
 
-/* Responsive Adjustments */
+/* Definition List Styles for Deliverables Page */
+#project-overview dl dt {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    /* Remove border-bottom */
+    /* border-bottom: 1px solid #ddd; */
+    padding-bottom: 0.5rem;
+}
+
+#project-overview dl dd {
+    margin-bottom: 1rem;
+    /* Remove border-bottom */
+    /* border-bottom: 1px solid #ddd; */
+    padding-bottom: 0.5rem;
+}
+
+#project-overview dl dd p {
+    margin-bottom: 0.5rem;
+}
+
+#project-overview dl dt,
+#project-overview dl dd {
+    /* border-bottom: 1px solid #ddd; */ /* Removed */
+    padding-bottom: 0.5rem;
+}
+
+#project-overview dl dd ul {
+    padding-left: 1rem;
+    list-style-type: none;
+}
+
+#project-overview dl dd ul li::before {
+    content: "• ";
+    color: #333;
+    font-weight: bold;
+}
+
+#project-overview dl dd ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Remove separator lines */
+#project-overview dl dt,
+#project-overview dl dd {
+    /* border-bottom: 1px solid #ddd; */ /* Removed */
+}
+
+/* Remove separator lines in small screens */
 @media (max-width: 768px) {
     .wireframe-content {
         flex-direction: column;
@@ -359,5 +404,10 @@ p, .card-text {
     .wireframe-subtitle {
         width: 100%;
     }
-}
 
+    /* Definition List Responsive Adjustments */
+    #project-overview dl dt, #project-overview dl dd {
+        padding-left: 0;
+        /* border-bottom: none; */ /* Already removed above */
+    }
+}
