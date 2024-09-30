@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Existing head content -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alan de Guzman - Web Developer</title>
@@ -8,13 +9,14 @@
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="images/website_logo2.png" alt="Website Logo" height="80">
             </a>
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -31,20 +33,23 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
+                    <!-- New Deliverables Link -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="deliverables.html">Deliverables</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
-
+    <!-- Header -->
     <header class="bg-dark text-white text-center py-5">
         <div class="container">
             <h1 class="display-4">Alan de Guzman</h1>
             <p class="lead">Automotive Software Engineer</p>
         </div>
     </header>
-
-
     <main>
+        <!-- About Section -->
         <section id="about" class="py-5">
             <div class="container">
                 <h2 class="text-center mb-4">About Me</h2>
@@ -60,7 +65,7 @@
                 </div>
             </div>
         </section>
-
+        <!-- Skills Section -->
         <section id="skills" class="py-5 bg-light">
             <div class="container">
                 <h2 class="text-center mb-4">Skills</h2>
@@ -92,7 +97,7 @@
                 </div>
             </div>
         </section>
-
+        <!-- Projects Section -->
         <section id="projects" class="py-5">
             <div class="container">
                 <h2 class="text-center mb-4">Projects</h2>
@@ -101,8 +106,7 @@
                 </div>
             </div>
         </section>
-
-        
+        <!-- Contact Section -->
         <section id="contact" class="py-5 bg-light">
             <div class="container">
                 <h2 class="text-center mb-4">Contact Me</h2>
@@ -127,101 +131,14 @@
                 </form>
             </div>
         </section>
+        <!-- Footer Section -->
+        <footer class="bg-dark text-white text-center py-3">
+            <div class="container">
+                <p>&copy; 2024 Alan de Guzman. All rights reserved.</p>
+            </div>
+        </footer>
     </main>
-
-    <footer class="bg-dark text-white text-center py-3">
-        <div class="container">
-            <p>&copy; 2024 Alan de Guzman. All rights reserved.</p>
-        </div>
-    </footer>
-
-<!-------------------------------------------->
-<!-- Existing content above -->
-
-<!-- Wireframe Overview Section -->
-<section id="wireframe-overview" class="py-5 bg-light">
-    <div class="container">
-        <h2 class="text-center mb-4">Wireframe Overview</h2>
-        <div class="wireframe-diagram-grid">
-            <!-- Navigation Bar -->
-            <div class="wireframe-element navbar">
-                <span class="wireframe-label">Navigation Bar (Sticky)</span>
-                <div class="wireframe-content navbar-content">
-                    <span class="wireframe-logo">Logo</span>
-                    <div class="wireframe-links">
-                        <span class="wireframe-link">About</span>
-                        <span class="wireframe-link">Skills</span>
-                        <span class="wireframe-link">Projects</span>
-                        <span class="wireframe-link">Contact</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Header Section -->
-            <div class="wireframe-element header">
-                <span class="wireframe-label">Header Section (Full Width)</span>
-                <div class="wireframe-content header-content">
-                    <span class="wireframe-title">Alan de Guzman</span>
-                    <span class="wireframe-subtitle">Automotive Software Engineer</span>
-                </div>
-            </div>
-
-            <!-- About Section -->
-            <div class="wireframe-element about">
-                <span class="wireframe-label">About Section (Two Columns)</span>
-                <div class="wireframe-content about-content">
-                    <div class="wireframe-image">[Headshot Image]</div>
-                    <div class="wireframe-text">
-                        <p>- Bio text</p>
-                        <p>- Short introduction</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Skills Section -->
-            <div class="wireframe-element skills">
-                <span class="wireframe-label">Skills Section (Three Columns)</span>
-                <div class="wireframe-content skills-content">
-                    <div class="wireframe-skill">Front-End Skills<br>HTML, CSS, JavaScript, React, Vue.js</div>
-                    <div class="wireframe-skill">Back-End Skills<br>Node.js, Express, Python, Django</div>
-                    <div class="wireframe-skill">Tools & Others<br>Git, Webpack, Docker, AWS</div>
-                </div>
-            </div>
-
-            <!-- Projects Section -->
-            <div class="wireframe-element projects">
-                <span class="wireframe-label">Projects Section (Three Columns)</span>
-                <div class="wireframe-content projects-content">
-                    <div class="wireframe-project">[Project 1]<br>Image, Title</div>
-                    <div class="wireframe-project">[Project 2]<br>Image, Title</div>
-                    <div class="wireframe-project">[Project 3]<br>Image, Title</div>
-                </div>
-            </div>
-
-            <!-- Contact Section -->
-            <div class="wireframe-element contact">
-                <span class="wireframe-label">Contact Section</span>
-                <div class="wireframe-content contact-content">
-                    <p>Name: [______]</p>
-                    <p>Email: [______]</p>
-                    <p>Message: [__________]</p>
-                    <p>[Send Message Button]</p>
-                </div>
-            </div>
-
-            <!-- Footer -->
-            <div class="wireframe-element footer">
-                <span class="wireframe-label">Footer</span>
-                <div class="wireframe-content footer-content">
-                    <p>© 2024 Alan de Guzman. All rights reserved.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-------------------------------------------->
-
+    <!-------------------------------------------->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
