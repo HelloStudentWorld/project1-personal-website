@@ -364,13 +364,6 @@ p, .card-text {
     margin-bottom: 0.5rem;
 }
 
-/* Remove separator lines */
-#project-overview dl dt,
-#project-overview dl dd {
-    /* border-bottom: 1px solid #ddd; */ /* Removed */
-}
-
-/* Remove separator lines in small screens */
 @media (max-width: 768px) {
     .wireframe-content {
         flex-direction: column;
